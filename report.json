@@ -1,0 +1,18 @@
+{
+  "issues": [
+    {
+      "tool": "bandit",
+      "severity": "HIGH",
+      "message": "Использование eval",
+      "file": "test.py",
+      "line": 10
+    },
+    {
+      "tool": "flake8",
+      "severity": "LOW",
+      "message": "Неиспользуемый импорт",
+      "file": "main.py",
+      "line": 3
+    }
+  ]
+}
